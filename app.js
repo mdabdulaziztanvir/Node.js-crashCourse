@@ -8,7 +8,7 @@ const app = express();
 
 // connect to dtabase
 const dbURI =
-  "mongodb+srv://abdulazizztanvir:OKTW7jHKz1MDWq8g@learning.lbxlf5j.mongodb.net/?retryWrites=true&w=majority";
+
 mongoose
   .connect(dbURI)
   .then((result) => app.listen(3000))
